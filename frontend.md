@@ -17,6 +17,12 @@ Para auxiliá-lo, forneceremos alguns dados importantes:
 
 Nossa API terá dados no seguinte formato [deste](properties.json) json.
 
+
+#### Listar todos os imóveis:
+```
+GET http://spotippos.vivareal.com/properties
+```
+
 #### Ler um imóvel por ID:
 ```
 GET http://spotippos.vivareal.com/properties/1
@@ -27,9 +33,20 @@ GET http://spotippos.vivareal.com/properties/1
 GET http://spotippos.vivareal.com/properties?ax=1&ay=1&bx=20&by=20
 ```
 
-#### Listar todos os imóveis:
+#### Paginação
 ```
-GET http://spotippos.vivareal.com/properties?ax=1&ay=1&bx=1400&by=1000
+GET http://spotippos.vivareal.com/properties?page=2
+```
+
+#### Atributos
+- squareMeters // Metros quadrados
+- beds // Quartos
+- baths // Banheiros
+- minprice // Preço mínimo
+- maxprice // Preço máximo
+
+```
+GET http://spotippos.vivareal.com/properties?beds=2&maxprice=420000
 ```
 
 ## Desafio
