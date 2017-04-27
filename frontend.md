@@ -8,26 +8,26 @@ Dependendo da sua experiência e/ou das ferramentas escolhidas, você pode preci
 ## Dados
 Para auxiliá-lo, forneceremos alguns dados importantes:
 
-###Layout do site
+### Layout do site
 - Layout do site Spotippos no [zeplin.io](https://zeplin.io/), solicite usuário e senha ao recrutador
 
 ![Página de Resultados](public/images/spotippos-result-page.png)
 
-###API para integração
+### API para integração
 
 Nossa API terá dados no seguinte formato [deste](properties.json) json.
 
-####Ler um imóvel por ID:
+#### Ler um imóvel por ID:
 ```
 GET http://spotippos.vivareal.com/properties/1
 ```
 
-####Buscar imóveis entre 2 coordenadas:
+#### Buscar imóveis entre 2 coordenadas:
 ```
 GET http://spotippos.vivareal.com/properties?ax=1&ay=1&bx=20&by=20
 ```
 
-####Listar todos os imóveis:
+#### Listar todos os imóveis:
 ```
 GET http://spotippos.vivareal.com/properties?ax=1&ay=1&bx=1400&by=1000
 ```
