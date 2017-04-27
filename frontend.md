@@ -34,16 +34,19 @@ GET http://spotippos.vivareal.com/properties?ax=1&ay=1&bx=20&by=20
 ```
 
 #### Paginação
+- `page` - Página
+- `limit` - Items por página
+
 ```
 GET http://spotippos.vivareal.com/properties?page=2
 ```
 
-#### Atributos
-- squareMeters // Metros quadrados
-- beds // Quartos
-- baths // Banheiros
-- minprice // Preço mínimo
-- maxprice // Preço máximo
+#### Filtros por caracteristicas
+- `squareMeters` - Metros quadrados
+- `beds` - Quartos
+- `baths` - Banheiros
+- `minprice` - Preço mínimo
+- `maxprice` - Preço máximo
 
 ```
 GET http://spotippos.vivareal.com/properties?beds=2&maxprice=420000
