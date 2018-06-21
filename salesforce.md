@@ -3,7 +3,7 @@
 ## Sobre o desafio
 
 
-O tempo estimado para realizar o teste é de **uma semana e meia**, porém dependendo da sua experiência, você pode precisar de mais ou de menos tempo para realizar o desafio.
+O tempo estimado para realizar o teste é de **uma semana**, porém dependendo da sua experiência, você pode precisar de mais ou de menos tempo para realizar o desafio.
 
 Para isso, vamos fornecer para você alguns dados. Neste site [Via CEP](https://viacep.com.br/) você é capaz de realizar uma consulta de endereços por CEP 
 no formato de **{8}** dígitos, por exemplo: "01001000".
@@ -48,7 +48,7 @@ exiba as informações de endereço dado um determinado CEP que o usuário irá 
 O lightning component irá conter um botão para salvar o endereço, que ao ser acionado irá gravar as informações 
 consultadas pela API de CEP dentro da sessão de endereço de uma Conta.
 
-![account_address_session](public/images/accounts-address-session.png)
+![account_address_session](public/images/accounts-address-session.PNG)
 
 
 ## Como entregar?
