@@ -17,3 +17,5 @@ Mantemos desafios com foco específico em cada área de conhecimento, escolha ab
 [Desafio back-end](backend.md)
 
 [Desafio front-end](frontend.md)
+
+[Desafio salesforce](salesforce.md)
