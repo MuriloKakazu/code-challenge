@@ -51,9 +51,15 @@ consultadas pela API de CEP dentro da sessão de endereço de uma Conta.
 ![account_address_session](public/images/accounts-address-session.png)
 
 
+## Como entregar?
+
+- Um repositório **PRIVADO** (bitbucket, gitlab, etc). Repositórios públicos do github **não serão aceitos**.
+
+Prezamos muito por documentação em forma de README, então faça dele seu cartão de visita.
+
 ## Modo de avaliação
 
-Nós sempre avaliamos o seu código, e para isso nós envolvemos sempre no mínimo 2 engenheiros aqui do Viva e amigavelmente informamos que iremos nos basear pelos seguintes critérios:
+Nós sempre avaliamos o seu código, e para isso nós envolvemos sempre no mínimo 2 engenheiros aqui do Grupo ZAP e amigavelmente informamos que iremos nos basear pelos seguintes critérios:
 
 * **Manutenibilidade:** O código é legível e de fácil manutenção?
 * **Desenho:** Como foram separadas as responsabilidades? Quais técnicas foram utilizadas?
